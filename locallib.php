@@ -52,14 +52,13 @@ class assign_submission_teamwork extends assign_submission_plugin {
      * @return string
      */
     public function view_summary(stdClass $submission, &$showviewlink) {
-        global $CFG;
-        require_once($CFG->dirroot . '/local/teamwork/locallib.php');
-        return local_teamwork_get_user_team($this->assignment->get_context()->instanceid, $submission->userid);
+        return \local_teamwork\common::get_user_team($this->assignment->get_context()->instanceid, $submission->userid);
     }
 
     public function is_enabled() {
         return $this->get_config('enabled') && $this->is_configurable();
     }
+    
 }
 
 

@@ -28,4 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'Teamwork';
 $string['default'] = 'Enabled by default';
 $string['default_help'] = 'If set, this submission method will be enabled by default for all new assignments.';
+$string['enabled'] = 'Enabled';
+$string['enabled_help'] = 'Enabled';
 

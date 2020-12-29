@@ -28,4 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 $string['pluginname'] = 'צוות';
 $string['default'] = 'Enabled by default';
 $string['default_help'] = 'If set, this submission method will be enabled by default for all new assignments.';
+$string['enabled'] = 'פעיל';
+$string['enabled_help'] = 'פעיל';
 
